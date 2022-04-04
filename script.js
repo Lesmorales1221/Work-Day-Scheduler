@@ -2,7 +2,10 @@
 $('#currentDay').text(moment().format("MMM Do YY"))
 
 
-//each time block is color-coded to indicate whether it is in the past, present, or future
+//each time block is color-coded 
+//to indicate whether it is in the past, present, or future
+
+//this should be a function that runs and checks a conditioal (if statement)
 
 //WHEN I click into a time block
 // THEN I can enter an event
@@ -10,3 +13,4 @@ $('#currentDay').text(moment().format("MMM Do YY"))
 // THEN the text for that event is saved in local storage
 // WHEN I refresh the page
 // THEN the saved events persist
+
