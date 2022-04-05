@@ -4,6 +4,13 @@ $('#currentDay').text(moment().format("MMM Do YY"))
 
 //each time block is color-coded 
 //to indicate whether it is in the past, present, or future
+function colortimeblock() {
+    var hour = moment().hour();
+}
+
+$('time-block').each(function() {
+    var currenthour =parseInt($(this).attr('id'));
+})
 
 //this should be a function that runs and checks a conditioal (if statement)
 
@@ -13,4 +20,3 @@ $('#currentDay').text(moment().format("MMM Do YY"))
 // THEN the text for that event is saved in local storage
 // WHEN I refresh the page
 // THEN the saved events persist
-
