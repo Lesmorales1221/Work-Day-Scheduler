@@ -37,3 +37,15 @@ var plan = $(this).siblings('.plan').val();
 
 // WHEN I refresh the page
 // THEN the saved events persist
+function usePlanner() {
+
+    $('hour').each(function() {
+        var currenthour = $(this).text();
+        var currentplanner = localStorage.getItem(currenthour);
+
+        //console.log(this)//console.log(currenthour)
+        if(currentplanner !== null){
+            $(this).siblings('.plan').val(currentplanner);
+        }
+    });
+}
