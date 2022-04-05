@@ -49,3 +49,7 @@ function usePlanner() {
         }
     });
 }
+
+//calling funtions
+colortimeblock();
+usePlanner();
