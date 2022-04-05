@@ -23,6 +23,14 @@ if (currenthour > hour) {
 
 
 //WHEN I click into a time block
+saveBtn.on('click', function() {
+
+//adding console.log(this) for save button
+var time = $(this).siblings('.hour').text();
+var plan = $(this).siblings('.plan').val();
+
+});
+
 // THEN I can enter an event
 // WHEN I click the save button for that time block
 // THEN the text for that event is saved in local storage
