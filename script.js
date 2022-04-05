@@ -13,6 +13,10 @@ $('time-block').each(function() {
 })
 
 //this should be a function that runs and checks a conditioal (if statement)
+if (currenthour > hour) {
+        $(this).addclass('future');
+}
+
 
 //WHEN I click into a time block
 // THEN I can enter an event
