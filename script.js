@@ -25,7 +25,7 @@ $('time-block').each(function() {
 
 //WHEN I click into a time block
 // WHEN I click the save button for that time block
-saveBtn.on('click', function() {
+$('.saveBtn').on('click', function() {
 
 //adding console.log(this) //save button
 var time = $(this).siblings('.hour').text();
