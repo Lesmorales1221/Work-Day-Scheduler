@@ -32,12 +32,8 @@ var time = $(this).siblings('.hour').text();
 var plan = $(this).siblings('.plan').val();
 
 // THEN the text for that event is saved in local storage
-    localStorage
+    localStorage.setItem(time, plan);
 });
-
-// THEN the text for that event is saved in local storage
-
-
 
 // WHEN I refresh the page
 // THEN the saved events persist
