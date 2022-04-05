@@ -53,3 +53,6 @@ function usePlanner() {
 //calling funtions
 colortimeblock();
 usePlanner();
+
+//define variable
+var saveBtn = $('.saveBtn');
