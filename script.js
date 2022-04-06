@@ -1,4 +1,4 @@
-var saveBtn = $('.saveBtn');
+var saveBtn = '.saveBtn';
 
 //current day is displayed at the top of the calendar
 $('#currentDay').text(moment().format("MMM Do YY"));
